@@ -1,3 +1,5 @@
+import profilePhoto from '../assets/profile-photo.jpg';
+
 export const portfolioData = {
   profile: {
     fullName: "Jivan Shankarrao Dharpure",
@@ -14,7 +16,7 @@ export const portfolioData = {
     dob: "18 February 2004",
     permanentAddress: "At. Dhawadi (Bk), Ta. Karanja (Ghadge), Dist. Wardha, Maharashtra – 442203",
     linkedIn: "https://www.linkedin.com/in/jivan-dharpure-1330393b3",
-    photoUrl: "/profile-photo.jpg",
+    photoUrl: profilePhoto,
     whatsappMessage: encodeURIComponent("Hello Jivan, I visited your professional portfolio and would like to connect regarding a professional opportunity."),
     
     primaryHeadline: "Agriculture Professional | Field Development Officer | Agribusiness & Farmer Relations",
